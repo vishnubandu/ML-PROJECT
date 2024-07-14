@@ -1,0 +1,28 @@
+body{
+    background-color: skyblue;
+}
+.main{
+   
+    justify-content: center;
+    place-content: center;
+    width: auto;
+    height: auto;
+    background-color: white;
+   
+   padding: 50px;
+    margin:120px;
+}
+    
+body h1{
+    color:black;
+}
+.main div{
+    color:black;
+}
+.main img{
+    justify-content: center;
+    place-content: center;
+    align-items: center;
+  
+  
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+  <title>Document</title>
+  <link href="static\style.css" rel="stylesheet"> 
+  <link href="{{ url_for('static', filename='vendor/font-awesome-4.7/css/font-awesome.min.css') }}" rel="stylesheet"> 
+    <link href="{{ url_for('static', filename='vendor/mdi-font/css/material-design-iconic-font.min.css') }}" rel="stylesheet"> 
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font special for pages-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Vendor CSS-->
+    <link href="{{ url_for('static', filename='vendor/select2/select2.min.css') }}" rel="stylesheet"> 
+</head>
+<body style="background-image:url('static/home.jpg');">
+<div clas="container">
+<div class="divnav">
+ 
+   
+    
+<div class="right" >
+
+<div class="main" >
+
+  <h1 class="h1" style="color:red">TELECOM CUSTOMER CHURN PREDICTION</h1>
+  <div><p class="typing-text">Customer churn has become highly important for companies because of increasing
+    competition among companies, increased importance of marketing strategies and conscious
+    behaviour of customers in the recent years. Customers can easily trend toward alternative
+    services. Companies must develop various strategies to prevent these possible trends,
+    depending on the services they provide. During the estimation of possible churns, data from
+    the previous churns might be used. An efficient churn predictive model benefits companies in
+    many ways. Early identification of customers likely to leave may help to build cost effective
+    ways in marketing strategies. Customer retention campaigns might be limited to selected
+    customers but it should cover most of the customer. Incorrect predictions could result in a
+    company losing profits because of the discounts offered to continuous subscribers.</p></div>
+    </div>
+    <div class="left">
+            <form action="{{ url_for('predict') }}">
+              <button class="button" type="submit">predict here</button>
+           </form>
+           
+    </div>
+    
+    </div>
+
+
+
+</div>
+    </body>
+</html>

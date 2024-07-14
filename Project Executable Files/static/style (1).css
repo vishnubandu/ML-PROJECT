@@ -1,0 +1,102 @@
+
+body,html{
+
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+body{
+background-color:skyblue;
+background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+background-size: cover;
+}
+
+        
+.main{
+   
+   
+  
+   color: white;
+   padding: 20px
+  text-align: center; 
+    padding: 50px;
+    margin:100px;
+    height:500px;
+    width:800px;
+    font-weight:bold;
+    border-radius: 100px;
+    justify-content:flex-end;
+ background-color:  rgba(255, 255, 255, 0.5);
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);   
+    
+}
+.left{
+
+ color: white;
+  padding: 20px; 
+ text-align: center; 
+    padding: 50px;
+    margin:100px;
+    height:200px;
+    width:200px;
+    font-weight:bold;
+    border-radius: 50px;
+    justify-content:flex-end;
+ 
+    }
+.button{
+  cursor: pointer;
+  color: white;
+  background-color: black;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-size:20px;
+  background-color:  rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+   background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+}
+ .right {
+
+            display: flex;
+            justify-content: flex-right; /* Aligns content to the right */
+            align-items: center; /* Centers vertically */
+            height: 100%; /* Full height of viewport */
+    
+body h1{
+    color:red;
+}
+.main div{
+    color:black;
+
+}
+
+.
+.h1{
+font-size:20px;
+}
+.typing-text{
+font-size:12px;}
+
+
+

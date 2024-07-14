@@ -1,0 +1,117 @@
+body{
+    background-color: grey;
+background-image:url('static/home.jpg');
+background-color:skyblue;
+background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+background-size: cover;}
+
+.main{
+
+    justify-content: flex-center;
+    place-content: center;
+    width: auto;
+    height: auto;
+   padding:10px;
+    margin: 75px;
+    align-items:center;
+   
+   
+}
+
+    
+body h1{
+    color:black;
+}
+.main div{
+    color:black;
+    
+}
+.main form{
+display:inline-table;
+font-style:2xl;
+justify-content:flex-center;
+align-items:center;
+
+
+}    
+.main form button{
+    color:black;
+    cursor: pointer;
+    background-color:rgb(53, 95, 53);
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    background-color:skyblue;
+    background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+    background-size: cover;
+}
+
+.main {
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color:  rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;height:auto;
+   
+    
+    
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    height:auto;
+}
+
+label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+select {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: calc(100% - 22px);
+    background-color:  rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .main {
+        width: 90%;
+    }
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction</title>
+    
+    <link href="{{ url_for('static', filename='style3.css') }}" rel="stylesheet"> 
+     
+     
+    
+</head>
+<body style="background-image:url('static/churn.jpg');">
+
+        <div class="main">
+        
+            <div><h1>PREDICTION FORM</h1></div>
+            
+                <form action="{{ url_for('submit') }}" method="POST">
+                    <label for="credit_score">CreditScore</label>
+                    <input type="text" id="credit_score" name="credit_score" placeholder="Enter CreditScore" required><br><br>
+                    
+                    <label for="geography">Geography</label>
+                    <select id="geography" name="geography" required>
+                        <option value="">Select</option>
+                        <option value="France">France</option>
+                        <option value="Germany">Germany</option>
+                        <option value="Spain">Spain</option>
+                    </select>
+                    
+                    <label>Gender</label><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label><br>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label><br><br>
+                    
+                    <label for="age">Age</label>
+                    <input type="text" id="age" name="age" placeholder="Enter Age" required><br><br>
+                    
+                    <label for="tenure">Tenure</label>
+                    
+                   <select id="tenure" name="tenure" required>
+                        <option value="">Select</option>
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select><br><br>
+                    
+                    
+                    <label for="balance">Balance</label>
+                    <input type="text" id="balance" name="balance" placeholder="Enter Balance" required><br><br>
+                    
+                    <label for="number_of_products">NumberOfProducts</label>
+                   
+                    <select id="number_of_products" name="number_of_products" required> 
+                        <option value="">Select</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select><br><br>
+                  
+                    
+                    <label for="has_cr_card">HasCrCard</label>
+                    <select id="has_cr_card" name="has_cr_card" required>
+                        <option value="">Select</option>
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select><br><br>
+                    
+                    <label for="is_active_member">IsActiveMember</label>
+                    <select id="is_active_member" name="is_active_member" required>
+                        <option value="">Select</option>
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select><br><br>
+                    
+                    <label for="estimated_salary">Estimated Salary</label>
+                    <input type="text" id="estimated_salary" name="estimated_salary" placeholder="Enter Estimated Salary" required><br><br>
+                    
+                    <input type="submit" name="submit" value="Submit">
+                </form>
+            </div>
+                   </div>
+    
+</body>
+</html>
